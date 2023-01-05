@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root{
+    --main-color:#e84242;
+    --black-color:#1f1f1f;
+    --border: 0.1rem solid rgba(255,255,255,0.4);
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: bisque;
+}
+section{
+    padding: 3.5rem 7%;
+}
+
+.btn{
+margin-top: 1rem;
+display: inline-block;
+padding: 2rem 3.75rem;
+border-radius: 30rem;
+font-size: 1.7rem;
+color: bisque;
+background-color: #000000;
+}
+
+.header .logo img{
+    height: 10rem;
+    user-select: none;
+}
+
+.header{
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 0rem;
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    position:relative;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color:rgb(0, 0, 0);
+    border-bottom: 0.1rem solid transparent;
+    user-select: none;
+    padding: 1rem;
+}
+
+.header .navbar .active,
+.header .navbar a:hover{
+    border-color:red;
+    padding-bottom: 0.5rem;
+    
+}
+
+
+.home{
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: -14.5rem;
+}
+
+.home .content{
+    max-width: 60rem;
+    user-select: none;
+    position:absolute ;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+    color: rgb(151, 15, 15);
+}
+
+.home .content h3{
+  font-size: 6rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.home .content p{
+    font-size: 2rem;
+font-weight: 300;
+line-height: 1.8;
+padding: 1rem 0;
+color: rgb(151, 15, 15);
+}
+
