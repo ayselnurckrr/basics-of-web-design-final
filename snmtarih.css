@@ -1,0 +1,99 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s ease;
+}
+
+
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: bisque;
+}
+
+.header .logo img{
+    height: 8rem;
+    width: 15rem;
+    user-select: none;
+    margin-top: auto;
+}
+
+.header{
+    background-color:rgb(255, 255, 255);
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 0 6%;
+    margin: 2rem 7%;
+    border-radius: 0rem;
+    box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    position:relative;
+    top: 0;
+    z-index: 1000;
+}
+
+.header .navbar a{
+    margin: 0 1rem;
+    font-size: 1.6rem;
+    color:rgb(0, 0, 0);
+    border-bottom: 0.1rem solid transparent;
+    user-select: none;
+    padding: 1rem;
+}
+
+.header .navbar .active,
+.header .navbar a:hover{
+    border-color:red;
+    padding-bottom: 0.5rem;
+}
+
+.sağ{
+    line-height: 1.5;
+    padding: 2rem;
+    width: 1100px;
+    margin: auto;
+    font-size: small;
+}
+
+
+.sol{
+    padding: 2rem;
+    float: left;
+    width: 500px;
+}
+
+h1{
+    color: red;
+}
+
+.sağ1{
+    line-height: 1.5;
+   padding: 2rem;
+    width: 1100px;
+    margin: auto;
+    font-size: small;
+}
+
+.sol1{
+    padding: 2rem;
+    float: right;
+    width: 500px;
+}
+
+p{
+    font-size: medium;
+    font-style: oblique;
+
+}
